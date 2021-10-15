@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let numBer;
+
+    for (numBer=0; numBer <= 100;numBer ++) {
+        if (numBer % 3 === 0 && numBer % 5 === 0 ){
+           document.write( 'FizzBuzz' + '<br>')
+        }else if (numBer % 5 === 0){
+            document.write('buzz'+ '<br>')
+        } else if (numBer % 3 === 0 ){
+            console.log('Fizz' + '<br>');
+        } else {
+            document.write(numBer + '<br>')
+        }
+
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
